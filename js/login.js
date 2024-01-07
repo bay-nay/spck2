@@ -7,11 +7,11 @@ const registerForm = document.getElementById("register-form")
 function handleLogin(e) {
     e.preventDefault();
     if (emailElm.value === "") {
-        alert("You are stupid")
+        alert("Bạn chưa điền tên")
         return;
     }
     if (passwordElm.value === "") {
-        alert("You are dead")
+        alert("Bạn chưa điền mật khẩu")
         return;
     }
     const email = emailElm.value;
