@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .nav-bar{
-    position:relative;
+    position: sticky;
     top: 0;
 }
 .inside{
@@ -12,29 +12,32 @@
 }
 .inside-son{
     display: flex;
-    height: 30px;
+    height: 100px;
     width: 100%;
     background-color: black;
     align-items: center;
     justify-content: center;
 }
-.appear{
-    border:none;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    margin-left: 18px;
-    font-size:40px;
-    font-family: cursive;
-    transition: all 0.5s;
-}
-.appear:hover{
-    transition:0.5s;
-    color: red;   
-}
 .inandout{
     text-decoration: none;
     color: white;
     font-family: cursive;
-    
+}
+.null{
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+}
+.click{
+    position:sticky;
+    top: 0;
+    width: 150px;
+}
+
+.product-list{
+    display: flex;
+    flex-direction: row;
+}
+.card-img-top{
+    width:50%;
 }
