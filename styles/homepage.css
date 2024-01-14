@@ -8,18 +8,33 @@
     top: 0;
 }
 .inside{
+    background-color: black;
+}
+.inside-son{
     display: flex;
-    height: 70px;
+    height: 30px;
     width: 100%;
     background-color: black;
     align-items: center;
+    justify-content: center;
 }
-.null{
+.appear{
+    border:none;
     text-decoration: none;
     color: white;
+    background-color: black;
     margin-left: 18px;
-    font-weight: 900;
-    font-size: 20px;
+    font-size:40px;
     font-family: cursive;
     transition: all 0.5s;
+}
+.appear:hover{
+    transition:0.5s;
+    color: red;   
+}
+.inandout{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    
 }
