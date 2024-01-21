@@ -1,6 +1,6 @@
 let productList = [];
 function getProduct() {
-  fetch("https://6578608bf08799dc80451925.mockapi.io/")
+  fetch("https://6578608bf08799dc80451925.mockapi.io/life")
   .then(function (respond) {
     return respond.json();
   })

@@ -26,18 +26,10 @@
 .null{
     text-decoration: none;
     font-family: cursive;
-    color: black;
-}
-.na{
-    text-decoration: none;
-    font-family: cursive;
     color: white;
 }
 .click{
     position:sticky;
     top: 0;
     width: 150px;
-}
-.card-img-top{
-    width:100%;
 }
