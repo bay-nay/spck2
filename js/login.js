@@ -22,7 +22,7 @@ function handleLogin(e) {
         const element = users[index];
         if (element.email === email && element.password === password) {
             alert("Đăng nhập thành công")
-            window.location="./homepage.html"
+            window.location="./index.html"
             return;
         }
         
